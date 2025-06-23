@@ -3,12 +3,12 @@ DenoisingDiffusionProbabilityModel
 This repository contains an implementation of Denoising Diffusion Probabilistic Models (DDPM) based on the original paper "Denoising Diffusion Probabilistic Models" by Ho et al.. 
 The model is trained and evaluated on the CIFAR-10 dataset.
 
-🧠 Overview
+Overview
 
 DDPMs are a class of generative models that learn to generate data by reversing a gradual noising process. 
 This implementation follows the original architecture and training procedure closely, with some customization for experimentation.
 
-📦 Features
+Features
 
 Full training pipeline on CIFAR-10
 Implementation of the forward (noising) and reverse (denoising) diffusion processes
